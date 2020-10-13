@@ -1,4 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
+  // print file info
+  console.log(`%cdebug ::`, `color:black;font-weight:bold;`, window.location.pathname);
   // header performance
   console.time('querySelector - header');
   document.querySelector('header');
