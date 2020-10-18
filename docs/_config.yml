@@ -7,6 +7,8 @@ twitter_username: xkema
 github_username:  xkema
 include:
   - _pages
+# exclude:
+#   - _pages/performance-optimization/customizations
 defaults:
   -
     scope:

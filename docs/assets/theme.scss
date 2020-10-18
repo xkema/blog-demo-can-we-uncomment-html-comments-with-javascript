@@ -27,7 +27,7 @@ nav {
   border: 1px dashed lightgray;
   background-color: ghostwhite;
   > a {
-    padding: 0.25rem 1rem;
+    padding: 0.125rem 1rem;
     &:hover {
       background-color: lavender;
     }
@@ -52,7 +52,8 @@ table {
   width: 100%;
   border-collapse: collapse;
   margin: 1rem 0;
-  td {
+  td,
+  th {
     border: 1px solid lightgray;
     padding: 0.25rem 1rem;
     margin: 0;
@@ -62,6 +63,10 @@ table {
     &:nth-child(2) {
       font-size: 0.8rem;
     }
+  }
+  th {
+    font-size: 0.8rem;
+    text-align: left;
   }
 }
 
@@ -75,4 +80,17 @@ hr {
   border: 0;
   height: 0;
   border-top: 1px solid lightgray;
+}
+
+.react-clock-component {
+  min-width: 250px;
+  text-align: center;
+  display: inline-block;
+  padding: 1rem;
+  border: 4px double gray;
+  margin-bottom: 2rem;
+  h2,
+  h3 {
+    margin: 0;
+  }
 }
