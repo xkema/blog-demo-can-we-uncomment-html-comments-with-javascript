@@ -1,8 +1,7 @@
 title: Blog Demo - Can We Uncomment HTML Comments with Javascript
 description: Blog Demo - Can We Uncomment HTML Comments with Javascript
 email: kemal.yilmaz@tutanota.com
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/blog-demo-can-we-uncomment-html-comments-with-javascript"
 twitter_username: xkema
 github_username:  xkema
 include:
