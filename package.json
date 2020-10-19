@@ -1,0 +1,24 @@
+{
+  "name": "blog-demo-can-we-uncomment-html-comments-with-javascript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "start": "JEKYLL_ENV=development bundle exec jekyll serve --source docs --destination docs/_site --config docs/_config.yml",
+    "build": "JEKYLL_ENV=production bundle exec jekyll build --source docs --destination docs/_site --config docs/_config.yml,docs/_config_build.yml",
+    "clean": "bundle exec jekyll clean --source docs --destination docs/_site"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xkema/blog-demo-can-we-uncomment-html-comments-with-javascript.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xkema/blog-demo-can-we-uncomment-html-comments-with-javascript/issues"
+  },
+  "homepage": "https://github.com/xkema/blog-demo-can-we-uncomment-html-comments-with-javascript#readme"
+}
