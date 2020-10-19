@@ -12,3 +12,5 @@
 Local Bundler configuration updated with `BUNDLE_GEMFILE: "docs/Gemfile"` to run bundler commands from project root.
 
 All the `*.md` files but `index-0.md` under the `docs/_pages/performance-optimization/customizations/` directory are excluded from Jekyll builds for performance reasons. You should manually build these files with `npm run build` command and then copy them into the `docs/performance-optimization/customizations/` directory manually for the updates.
+
+You should re-build these files each time you update a file related to these files, like layout files, inclusions, ...
