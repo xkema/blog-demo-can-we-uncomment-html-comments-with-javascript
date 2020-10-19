@@ -7,7 +7,7 @@
     "doc": "docs"
   },
   "scripts": {
-    "start": "JEKYLL_ENV=development bundle exec jekyll serve --source docs --destination docs/_site --config docs/_config.yml",
+    "start": "JEKYLL_ENV=development bundle exec jekyll serve --source docs --destination docs/_site --config docs/_config.yml,docs/_config_development.yml",
     "build": "JEKYLL_ENV=production bundle exec jekyll build --source docs --destination docs/_site --config docs/_config.yml,docs/_config_build.yml",
     "clean": "bundle exec jekyll clean --source docs --destination docs/_site"
   },

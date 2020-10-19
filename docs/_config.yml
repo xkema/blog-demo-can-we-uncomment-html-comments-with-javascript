@@ -26,4 +26,3 @@ strict_front_matter: true
 timezone: Asia/Istanbul
 disable_disk_cache: true
 ignore_theme_config: true
-livereload: true
