@@ -80,6 +80,7 @@ hr {
   border: 0;
   height: 0;
   border-top: 1px solid lightgray;
+  margin: 2rem 0;
 }
 
 .react-clock-component {
@@ -92,5 +93,21 @@ hr {
   h2,
   h3 {
     margin: 0;
+  }
+}
+
+.revealed-comment {
+  color: darkslategrey;
+  font-family: 'Courier New', Courier, monospace;
+  border: 1px dotted #236e25;
+  padding: 1rem;
+  font-size: 0.8rem;
+  white-space: nowrap;
+  overflow: auto;
+  background-color: honeydew;
+  transition: opacity 500ms ease;
+  opacity: 0;
+  &.fly {
+    opacity: 1;
   }
 }

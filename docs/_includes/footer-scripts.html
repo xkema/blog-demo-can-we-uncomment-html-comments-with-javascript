@@ -16,3 +16,7 @@
 {% if page.layout == 'performance-optimization-customizations' %}
 <script src="{{ '/assets/performance-timers.js' | relative_url }}"></script>
 {% endif %}
+
+{% if page.url == '/' %}
+<script src="{{ '/assets/reveal-comments.js' | relative_url }}"></script>
+{% endif %}
