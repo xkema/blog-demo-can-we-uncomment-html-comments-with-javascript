@@ -25,9 +25,12 @@ There are two different cases under the probe. **Case 1** shows how different ve
 
 ## Case Outlines
 
-**Case 0** is the short answer. Click `Reveal HTML Comments` button to replace inline comment nodes with styled paragraphs! (Before that don't forget to check out source code to see real comments!)
+**Case 0** is the short answer. Click `Reveal HTML Comments` button to replace inline comment nodes with styled paragraphs! (Before that don't forget to check out source code or Elements panel to see real comments!)
 
-<button id="reveal-comments" title="Reveal HTML Comments">Reveal HTML Comments</button>
+<div> 
+  <button id="reveal-comments" title="Reveal HTML Comments">Reveal HTML Comments</button>
+  <button id="put-back-comments" title="Put Back HTML Comments" disabled>Put Back HTML Comments</button>
+</div> 
 
 - - -
 
