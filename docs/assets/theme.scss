@@ -119,7 +119,8 @@ nav {
     align-self: center;
     flex-grow: 1;
     text-align: center;
-    padding: 0.5rem 1rem;
+    padding: 0.5rem 0.5rem;
+    margin: 0 0.25rem;
     border-radius: 2px;
     color: indigo;
     &.navbar-home {

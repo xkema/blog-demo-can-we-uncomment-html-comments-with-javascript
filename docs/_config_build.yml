@@ -1,4 +1,4 @@
 # excludes manually copied assets (not the _site/* output)
 # they'll be overriden by "npm run build" command
 exclude:
-  - memory-usage/customizations/
+  - memory-usage/
