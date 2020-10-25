@@ -1,22 +1,29 @@
-{%- if page.url == '/react-updates/v16/' -%}
+{% comment %} site main script {% endcomment %}
+<script src="{{ '/assets/main.js' | relative_url }}"></script>
+
+{% comment %} react libraries {% endcomment %}
+{%- if page.url == '/demarcation-methods/v16/' -%}
 <script src="{{ '/assets/lib/react.development-v16.14.0.js' | relative_url }}"></script>
 <script src="{{ '/assets/lib/react-dom.development-v16.14.0.js' | relative_url }}"></script>
-{%- elsif page.url == '/react-updates/v15/' -%}
+{%- elsif page.url == '/demarcation-methods/v15/' -%}
 <script src="{{ '/assets/lib/react-v15.7.0.js' | relative_url }}"></script>
 <script src="{{ '/assets/lib/react-dom-v15-7-0.js' | relative_url }}"></script>
-{%- elsif page.url == '/react-updates/v14/' -%}
+{%- elsif page.url == '/demarcation-methods/v14/' -%}
 <script src="{{ '/assets/lib/react-v0.14.10.js' | relative_url }}"></script>
 <script src="{{ '/assets/lib/react-dom-v0.14.10.js' | relative_url }}"></script>
 {%- endif -%}
 
-{%- if page.url == '/react-updates/v16/' or page.url == '/react-updates/v15/' or page.url == '/react-updates/v14/' -%}
+{% comment %} react clock component {% endcomment %}
+{%- if page.url == '/demarcation-methods/v16/' or page.url == '/demarcation-methods/v15/' or page.url == '/demarcation-methods/v14/' -%}
 <script src="{{ '/assets/react-clock-component.js' | relative_url }}"></script>
 {%- endif -%}
 
-{%- if page.layout == 'performance-optimization-customizations' -%}
+{% comment %} memory demo timers {% endcomment %}
+{%- if page.layout == 'memory-usage' and page.url != '/memory-usage/' -%}
 <script src="{{ '/assets/performance-timers.js' | relative_url }}"></script>
 {%- endif -%}
 
-{%- if page.url == '/' -%}
+{% comment %} html comments {% endcomment %}
+{%- if page.url == '/html-comments/' -%}
 <script src="{{ '/assets/reveal-comments.js' | relative_url }}"></script>
 {%- endif -%}

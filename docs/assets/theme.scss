@@ -20,20 +20,6 @@ body {
   }
 }
 
-nav {
-  display: flex;
-  flex-direction: column;
-  padding: 2rem 1rem;
-  border: 1px dashed lightgray;
-  background-color: ghostwhite;
-  > a {
-    padding: 0.125rem 1rem;
-    &:hover {
-      background-color: lavender;
-    }
-  }
-}
-
 code {
   font-size: 0.8rem;
   font-family: monospace;
@@ -117,8 +103,50 @@ hr {
   position: relative;
   margin-bottom: 1rem;
   &::after {
-    content: "~ comment nodes ~";
+    content: "~ comments wrapper ~";
     text-align: center;
     display: block;
+  }
+}
+
+nav {
+  border: 1px dashed lavender;
+  background-color: ghostwhite;
+  padding: 0.5rem 1rem;
+  display: flex;
+  margin-bottom: 1rem;
+  > a {
+    align-self: center;
+    flex-grow: 1;
+    text-align: center;
+    padding: 0.5rem 1rem;
+    border-radius: 2px;
+    color: indigo;
+    &.navbar-home {
+      padding: 1rem;
+    }
+    &:hover,
+    &.active {
+      background-color: lavender;
+    }
+  }
+  &.wrapped {
+    flex-wrap: wrap;
+    > a {
+      flex-basis: 20%;
+    }
+  }
+  &.page-nav {
+    border: 1px dashed gainsboro;
+    background-color: whitesmoke;
+    > a {
+      padding: 0.25rem;
+      margin: 0.25rem;
+      color: black;
+      &:hover,
+      &.active {
+        background-color: gainsboro;
+      }
+    }    
   }
 }

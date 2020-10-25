@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
-  // print file info
-  console.log(`%cdebug ::`, `color:black;font-weight:bold;`, window.location.pathname);
+  // number of comment lines
+  console.log(`%cdebug ::`, `color:black;font-weight:bold;`, 'number of "comments wrapper" children:', document.querySelector('.comment-nodes.fly').childNodes.length);
   // header performance
   console.time('querySelector - header');
   document.querySelector('header');

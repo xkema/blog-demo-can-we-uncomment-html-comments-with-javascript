@@ -6,14 +6,9 @@ twitter_username: xkema
 github_username:  xkema
 include:
   - _pages
+# excludes heavy-weight customizations folder for build performance (they sould be handled manually)
 exclude:
-  - _pages/performance-optimization/customizations/index-10k.md
-  - _pages/performance-optimization/customizations/index-10kc.md
-  - _pages/performance-optimization/customizations/index-50k.md
-  - _pages/performance-optimization/customizations/index-50kc.md
-  - _pages/performance-optimization/customizations/index-50kct.md
-  - _pages/performance-optimization/customizations/index-100k.md
-  - _pages/performance-optimization/customizations/index-100kc.md
+  - _pages/memory-usage/customizations/
 defaults:
   -
     scope:

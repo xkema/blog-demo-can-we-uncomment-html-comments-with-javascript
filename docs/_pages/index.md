@@ -1,43 +1,17 @@
 ---
-title: Blog Demo - Can We Uncomment HTML Comments with Javascript
+layout: default
+title: Blog Demo - DOM Nodes are Expensive
 permalink: /
 ---
 
-<!-- [1] @todo rename "Javascript" with "JavaScript" at the header -->
+This is a demo page for the blog post [DOM Nodes are Expensive](https://xkema.github.io/2020/dom-nodes-are-expensive "DOM Nodes are Expensive").
 
-This is a demo page for the blog post [Can We Uncomment HTML Comments with JavaScript?](https://xkema.github.io/2020/can-we-uncomment-html-comments-with-javascript "Can We Uncomment HTML Comments with JavaScript?")
+For each demo, do not forget to open up your dev tools panel and inspect the changes.
 
-<!-- [2] @todo Check this blog page link after deployment -->
+## Demo Outlines
 
-There are two different cases under the probe. **Case 1** shows how different versions of ReactDOM update individual pieces of textual content. **Case 2** is a memory snapshot from Firefox Developer Tools to show how different numbers of DOM Nodes affect memory usage on a page.
+There are three demos for each post in the series.
 
-<!-- [3] inline navigation for home page -->
-<nav>
-  <a href="./react-updates/">case 1: react-updates</a>
-  <a href="./performance-optimization/">case 2: performance-optimization</a>
-</nav>
-
-<!-- [4] Case 0 is this page, "Reveal HTML Comments" button will make comments visible -->
-
-<div>
-  <!-- Hi! I'm an HTML comment. -->
-</div>
-
-## Case Outlines
-
-**Case 0** is the short answer. Click `Reveal HTML Comments` button to replace inline comment nodes with styled paragraphs! (Before that don't forget to check out source code or Elements panel to see real comments!)
-
-<div> 
-  <button id="reveal-comments" title="Reveal HTML Comments">Reveal HTML Comments</button>
-  <button id="put-back-comments" title="Put Back HTML Comments" disabled>Put Back HTML Comments</button>
-</div> 
-
-- - -
-
-At **Case 1** you'll have the same `Clock` component defined by React, with three different demarcation methods.
-
-At **Case 2** you'll have some HTML files with including different sizes of comment nodes. See Case 2 index for the customizations.
-
-For both demos, open up your dev tools panel and inspect the changes.
-
-<!-- [5] Add open devtools note to sub pages also -->
+- **Demo 1** is to reveal HTML comments in a webpage source code. Click `Reveal HTML Comments` button to replace inline comment nodes with styled paragraphs! (Before that don't forget to check out source code or Elements panel to see real comments!) The other button `Put Back HTML Comments` creates Comment nodes dynamically and puts revealed ones back to the DOM tree.
+- **Demo 2** shows how different versions of ReactDOM update individual pieces of textual content. You'll have the same `Clock` component defined by React, with three different demarcation methods.
+- **Demo 3** is to save memory snapshots from Firefox Developer Tools to show how different numbers of DOM Nodes affect memory usage on a page. You'll have some HTML files with including different sizes of comment nodes. See Case 2 index for the customizations.

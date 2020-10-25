@@ -4,15 +4,16 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Blog Demo - Can We Uncomment HTML Comments with Javascript">
+  <meta name="description" content="Blog Demo - DOM Nodes are Expensive">
   <meta name="author" content="Kemal Yılmaz">
-  <title>{{ page.title | default: 'Blog Demo - Can We Uncomment HTML Comments with Javascript' }}</title>
+  <title>{{ page.title | default: 'Blog Demo - DOM Nodes are Expensive' }}</title>
   <link rel="stylesheet" href="{{ '/assets/theme.css' | relative_url }}">
 </head>
 <body class="{{ page.layout }} in-a-box">
   <header>
     <h1>{{ page.title | default: '*' }}</h1>
   </header>
+  {% include navbar.html %}
   <main>
     {{ content }}
   </main>
