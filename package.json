@@ -1,5 +1,5 @@
 {
-  "name": "blog-demo-can-we-uncomment-html-comments-with-javascript",
+  "name": "blog-demo-dom-nodes-are-expensive",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -13,12 +13,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/xkema/blog-demo-can-we-uncomment-html-comments-with-javascript.git"
+    "url": "git+https://github.com/xkema/blog-demo-dom-nodes-are-expensive.git"
   },
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/xkema/blog-demo-can-we-uncomment-html-comments-with-javascript/issues"
+    "url": "https://github.com/xkema/blog-demo-dom-nodes-are-expensive/issues"
   },
-  "homepage": "https://github.com/xkema/blog-demo-can-we-uncomment-html-comments-with-javascript#readme"
+  "homepage": "https://github.com/xkema/blog-demo-dom-nodes-are-expensive#readme"
 }

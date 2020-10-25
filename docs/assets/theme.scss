@@ -96,7 +96,8 @@ hr {
   }
 }
 
-.revealed-comment {
+.revealed-comment,
+.comment-nodes {
   color: darkslategrey;
   font-family: 'Courier New', Courier, monospace;
   border: 1px dotted #236e25;
@@ -109,5 +110,15 @@ hr {
   opacity: 0;
   &.fly {
     opacity: 1;
+  }
+}
+
+.comment-nodes {
+  position: relative;
+  margin-bottom: 1rem;
+  &::after {
+    content: "~ comment nodes ~";
+    text-align: center;
+    display: block;
   }
 }

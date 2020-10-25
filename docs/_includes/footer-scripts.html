@@ -1,22 +1,22 @@
-{% if page.url == '/react-updates/v16/' %}
+{%- if page.url == '/react-updates/v16/' -%}
 <script src="{{ '/assets/lib/react.development-v16.14.0.js' | relative_url }}"></script>
 <script src="{{ '/assets/lib/react-dom.development-v16.14.0.js' | relative_url }}"></script>
-{% elsif page.url == '/react-updates/v15/' %}
+{%- elsif page.url == '/react-updates/v15/' -%}
 <script src="{{ '/assets/lib/react-v15.7.0.js' | relative_url }}"></script>
 <script src="{{ '/assets/lib/react-dom-v15-7-0.js' | relative_url }}"></script>
-{% elsif page.url == '/react-updates/v14/' %}
+{%- elsif page.url == '/react-updates/v14/' -%}
 <script src="{{ '/assets/lib/react-v0.14.10.js' | relative_url }}"></script>
 <script src="{{ '/assets/lib/react-dom-v0.14.10.js' | relative_url }}"></script>
-{% endif %}
+{%- endif -%}
 
-{% if page.url == '/react-updates/v16/' or page.url == '/react-updates/v15/' or page.url == '/react-updates/v14/' %}
+{%- if page.url == '/react-updates/v16/' or page.url == '/react-updates/v15/' or page.url == '/react-updates/v14/' -%}
 <script src="{{ '/assets/react-clock-component.js' | relative_url }}"></script>
-{% endif %}
+{%- endif -%}
 
-{% if page.layout == 'performance-optimization-customizations' %}
+{%- if page.layout == 'performance-optimization-customizations' -%}
 <script src="{{ '/assets/performance-timers.js' | relative_url }}"></script>
-{% endif %}
+{%- endif -%}
 
-{% if page.url == '/' %}
+{%- if page.url == '/' -%}
 <script src="{{ '/assets/reveal-comments.js' | relative_url }}"></script>
-{% endif %}
+{%- endif -%}
