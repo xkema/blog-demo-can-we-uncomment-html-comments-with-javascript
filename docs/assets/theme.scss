@@ -127,6 +127,9 @@ nav {
     &.n-home {
       padding: 0.75rem;
     }
+    &.n-v17 {
+      text-decoration-style: wavy;
+    }
     &:hover,
     &.active {
       background-color: lavender;
