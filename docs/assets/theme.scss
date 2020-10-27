@@ -38,6 +38,7 @@ table {
   width: 100%;
   border-collapse: collapse;
   margin: 1rem 0;
+  font-size: 1rem;
   td,
   th {
     border: 1px solid lightgray;
@@ -46,12 +47,8 @@ table {
     &:nth-child(1) {
       white-space: nowrap;
     }
-    &:nth-child(2) {
-      font-size: 0.8rem;
-    }
   }
   th {
-    font-size: 0.8rem;
     text-align: left;
   }
 }
