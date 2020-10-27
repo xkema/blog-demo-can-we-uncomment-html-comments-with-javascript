@@ -1,7 +1,10 @@
-{% comment %} site main script {% endcomment %}
+{% comment %}
+site main script
+{% endcomment %}
 <script src="{{ '/assets/main.js' | relative_url }}"></script>
-
-{% comment %} react libraries {% endcomment %}
+{% comment %}
+react libraries
+{% endcomment %}
 {%- if page.url == '/demarcation-methods/v17/' -%}
 <script src="{{ '/assets/lib/react.development-v17.0.1.js' | relative_url }}"></script>
 <script src="{{ '/assets/lib/react-dom.development-v17.0.1.js' | relative_url }}"></script>
@@ -15,13 +18,15 @@
 <script src="{{ '/assets/lib/react-v0.14.10.js' | relative_url }}"></script>
 <script src="{{ '/assets/lib/react-dom-v0.14.10.js' | relative_url }}"></script>
 {%- endif -%}
-
-{% comment %} react clock component {% endcomment %}
+{% comment %}
+react clock component
+{% endcomment %}
 {%- if page.url == '/demarcation-methods/v17/' or page.url == '/demarcation-methods/v16/' or page.url == '/demarcation-methods/v15/' or page.url == '/demarcation-methods/v14/' -%}
 <script src="{{ '/assets/react-clock-component.js' | relative_url }}"></script>
 {%- endif -%}
-
-{% comment %} html comments {% endcomment %}
+{% comment %}
+html comments
+{% endcomment %}
 {%- if page.url == '/html-comments/' -%}
 <script src="{{ '/assets/reveal-comments.js' | relative_url }}"></script>
 {%- endif -%}

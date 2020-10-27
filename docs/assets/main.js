@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const commentNodesLog = commentNodes !== null ? commentNodes.childNodes.length : 'not-a-comment-nodes-demo'; 
   // print logs
   console.group('logs');
-    console.log(`%clog ::`, `color:black;font-weight:bold;`, pathname);
-    console.log(`%clog ::`, `color:black;font-weight:bold;`, '# of comment nodes', commentNodesLog);
+    console.log(`%clog`, `color:black;font-weight:bold;`, pathname.replace('/blog-demo-dom-nodes-are-expensive/', '/'));
+    console.log(`%clog`, `color:black;font-weight:bold;`, 'number-of-extra-nodes', commentNodesLog);
   console.groupEnd();
 });
