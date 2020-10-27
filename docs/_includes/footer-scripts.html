@@ -21,11 +21,6 @@
 <script src="{{ '/assets/react-clock-component.js' | relative_url }}"></script>
 {%- endif -%}
 
-{% comment %} memory demo timers {% endcomment %}
-{%- if page.layout == 'memory-usage' and page.url != '/memory-usage/' -%}
-<script src="{{ '/assets/performance-timers.js' | relative_url }}"></script>
-{%- endif -%}
-
 {% comment %} html comments {% endcomment %}
 {%- if page.url == '/html-comments/' -%}
 <script src="{{ '/assets/reveal-comments.js' | relative_url }}"></script>
