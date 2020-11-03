@@ -1,8 +1,8 @@
 # blog-demo-dom-nodes-are-expensive
 
-[Demo page](https://xkema.github.io/blog-demo-dom-nodes-are-expensive/ "Blog Demo - Can We Uncomment HTML Comments with Javascript")
+[Demo Page](https://xkema.github.io/blog-demo-dom-nodes-are-expensive/ "Blog Demo - Can We Uncomment HTML Comments with Javascript")
 
-[Related blog post](https://xkema.github.io/2020/can-we-uncomment-html-comments-with-javascript "Can We Uncomment HTML Comments with JavaScript?")
+[Related Blog Post](https://xkema.github.io/2020/can-we-uncomment-html-comments-with-javascript "Can We Uncomment HTML Comments with JavaScript?")
 
 ## developer notes
 
