@@ -30,3 +30,9 @@ html comments
 {%- if page.url == '/html-comments/' -%}
 <script src="{{ '/assets/reveal-comments.js' | relative_url }}"></script>
 {%- endif -%}
+{% comment %}
+goat counter
+{% endcomment %}
+{%- if jekyll.environment != 'development' -%}
+<script data-goatcounter="https://xkema-github-io.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+{%- endif -%}
